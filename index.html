@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+ <header>
+  <nav>
+    <h2>MyPortfolio</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+<div id="portfolio">
+
+<!-- HERO -->
+<div id="home" class="hero">
+  <h1>Hi, I'm Shivani</h1>
+
+<div class="split-text-container">
+    <span class="text-part left">Frontend Developer | </span>
+    <span class="text-part right"> UI Enthusiast</span>
+</div>
+
+  <!-- <p>Frontend Developer | UI Enthusiast</p> -->
+  <div class="btns">
+    <a href="Resume1.pdf" target="_blank" class="btn">Resume</a>
+    <a href="#projects" class="btn">Projects</a>
+  </div>
+</div>
+
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2>About Me</h2>
+  <p>I’m a second-year Computer Science student with a strong interest in software development and problem-solving. I enjoy building projects that combine creativity with logic, and I’m continuously improving my skills in programming, data structures, and web technologies. I’m currently exploring real-world applications of technology and aiming to grow as a developer through hands-on experience and collaboration.</p>
+</section>
+
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2>My Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <i class="fa-brands fa-html5"></i>
+      <p>HTML</p>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-css3-alt"></i>
+      <p>CSS</p>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-js"></i>
+      <p>JavaScript</p>
+    </div>
+
+    <!-- <div class="skill-card">
+      <i class="devicon-typescript-plain colored"></i>
+      <p>TypeScript</p>
+    </div> -->
+
+    <div class="skill-card">
+      <i class="fa-brands fa-react"></i>
+      <p>React</p>
+    </div>
+
+    <div class="skill-card">
+      <i class="fa-brands fa-github"></i>
+      <p>GitHub</p>
+    </div>
+
+    
+
+  </div>
+</section>
+
+<!-- ICON LIBRARY -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2>My Projects</h2>
+
+  <div class="projects-container">
+
+    <!-- Project 1 -->
+    <div class="card" data-aos="fade-up">
+      <h3>CampusGo</h3>
+      <div class="para">
+      <p>Student essential delivery within campus website .</p>
+      </div>
+
+      <div class="tech">
+      <P>Tech Stack: ReactJS , CSS, LocalStorage</P>
+      </div>
+      
+      <div class="links">
+        <a href="https://github.com/ShivaniBasude/CampusGo.git" target="_blank"><button>GitHub <i class="fa-brands fa-github"></i></button></a>
+        <a href="https://campusgo-1.onrender.com" target="_blank"><button>Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="card" data-aos="fade-up" data-aos-delay="200">
+      <h3>BingeBook</h3>
+      <div class="para">
+      <p>Look for the movies you like and get all the information you need.</p>
+      </div>
+
+      <div class="tech">
+      <P>Tech Stack: ReactJS, CSS, Rest API</P>
+      </div>
+      <div class="links">
+        <a href="https://github.com/ShivaniBasude/BingeBook.git" target="_blank"><button>GitHub <i class="fa-brands fa-github"></i></button></a>
+        <a href="https://bingebook2.onrender.com" target="_blank"><button>Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="card" data-aos="fade-up" data-aos-delay="400">
+      <h3>Rock Paper Scissor</h3>
+      <div class="para">
+      <p>A game built to understand the basics of JavaScript and DOM manipulation.</p>
+      </div>
+
+      <div class="tech">
+      <P>Tech Stack: JavaScript, HTML, CSS</P>
+      </div>
+       <div class="links">
+        <a href="https://github.com/ShivaniBasude/rock-paper-scissor.git" target="_blank"><button>GitHub <i class="fa-brands fa-github"></i></button></a>
+        <a href="https://rock-paper-scissor-rvmg.onrender.com" target="_blank"><button>Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></button></a>
+      </div>
+    </div>
+     
+
+  </div>
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+<!-- 
+  <form id="form">
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send</button>
+  </form> -->
+  <a href="https://www.linkedin.com/in/shivani-basude-b9b0b4397" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://github.com/ShivaniBasude" target="_blank"><i class="fa-brands fa-github"></i></a>
+
+  <p>Email : shivanibasude@gmail.com</p>
+</section>
+
+<footer>
+  <p><i class="fa-regular fa-copyright"></i> 2026 Shivani Basude</p>
+</footer>
+
+</div>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="script.js"></script>
+
+<script src="three.r134.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js"></script>
+<script src="vanta.fog.min.js"></script>
+<script>
+VANTA.FOG({
+  el: "#portfolio",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  highlightColor: 0xd10000,
+  midtoneColor: 0x7f72cc,
+  lowlightColor: 0xff4500,
+  baseColor: 0xefd6e0,
+  blurFactor: 0.59,
+  speed: 1.30,
+  zoom: 1.10
+})
+</script>
+
+</body>
+</html>
