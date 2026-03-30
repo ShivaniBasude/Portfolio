@@ -42,6 +42,14 @@ nav a {
   font-size : 1.1rem;
 }
 
+/* Underline*/
+.underline{
+  text-decoration: underline;
+  text-decoration-color: #000;
+  text-decoration-thickness: 3px;
+}
+
+
 /* HERO */
 .hero {
   height: 100vh;
@@ -178,18 +186,18 @@ nav a {
   cursor: pointer;
 }
 
-/* ICON */
+
 .skill-card i {
   font-size: 40px;
   margin-bottom: 10px;
 }
 
-/* HOVER EFFECT 🔥 */
+
 .skill-card:hover {
   box-shadow: 0 0 12px #000;
 }
 
-/* TEXT */
+
 .skill-card p {
   margin-top: 10px;
 }
@@ -209,12 +217,13 @@ nav a {
   background: rgba(255,255,255,0.2);
   padding: 20px;
   border-radius: 20px;
+  border: 1px solid transparent;
   /* backdrop-filter: blur(10px); */
   transition: 0.3s;
 }
 
 .card:hover {
-  border-color: #3b82f6;
+  box-shadow: 0 0 15px #000;
   transform: translateY(-10px) scale(1.03);
 }
 .card h3 {
@@ -259,6 +268,10 @@ button {
   transition: 0.3s;
 }
 
+button:hover{
+  border : 1px solid #000;
+}
+
 /* contact */
 #contact {
   text-align: center;
@@ -273,6 +286,16 @@ button {
 
 #contact p {
   margin: 10px 0;
+}
+
+#contact .email {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+#contact .email:hover {
+  text-decoration: underline;
 }
 
 
